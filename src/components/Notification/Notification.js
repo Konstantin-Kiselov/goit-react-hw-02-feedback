@@ -5,7 +5,7 @@ const Notification = ({ message }) => (
   <p className={s.notification}>{message}</p>
 );
 Notification.propTypes = {
-  message: PropTypes.string,
+  message: PropTypes.string.isRequired,
 };
 
 export default Notification;
